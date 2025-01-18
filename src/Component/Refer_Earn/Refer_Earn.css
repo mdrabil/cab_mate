@@ -1,0 +1,35 @@
+.refer-top-box {
+    background: linear-gradient(to bottom, #0000008d 70%, #2B9AE6);
+
+}
+  
+.refer-top-box2 {
+    background: linear-gradient(to bottom, #00000000 70%, #2B9AE6);
+
+}
+  
+/* .refer-top-btns {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50px;
+  }
+  
+  .refer-top-btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #2b9ae6;
+    transition: all 0.3s ease;
+  } */
+  
+  .refer-top-btn.active {
+    background-color: #2b9ae6;
+    color: white;
+  }
+  

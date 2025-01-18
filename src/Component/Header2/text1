@@ -1,0 +1,64 @@
+  <div className="header-navbar">
+         <div className="logo">
+            
+            <Link to={'/'}>
+            <img src={img} alt="" />
+            </Link>
+        </div>
+    
+        <div className="navbar-center" style={{
+          fontSize: isres ? '10px':'14px'
+        }}>
+              
+           <div className='header-navbar-icons'
+           >
+           <img src={discoundimg}  alt="" />
+            <span>
+                Special Offers
+              </span>
+           </div>
+        
+           <div className='header-navbar-icons'
+           >
+      <div className="header-navbar-icons-box">
+      <img src={mobileimg}  alt="" />
+      </div>
+            <span>
+                Download App
+              </span>
+           </div>
+
+
+
+           <div className='header-navbar-icons'
+           >
+      <div className="header-navbar-icons-box">
+      <img src={travelcarimg}  alt="" />
+      </div>
+            <span>
+                Travel Agent?
+              </span>
+           </div>
+
+     <div className='header-navbar-icons'
+           >
+      <div className="header-navbar-icons-box">
+      <img src={roadimg}  alt="" />
+      </div>
+            <span>
+              Cab Mate Blog
+              </span>
+           </div>
+        
+      
+        
+  
+        <div className="header-right">
+    <div className="header-btn">
+          Login or Signup
+        </div>
+     
+        </div>
+
+        </div> 
+         </div>

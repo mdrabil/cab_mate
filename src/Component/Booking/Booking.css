@@ -1,0 +1,41 @@
+.contact-form i{
+    color: #0E39A6;
+    /* border-color: red; */
+    /* background-color: red; */
+    /* font-size: 100px; */
+
+}
+
+.booking-details-show{
+
+    padding: 10px 0px;
+}
+.booking-details-show .booking-details-show-box{
+    padding:  10px 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.booking-details-show .booking-details-show-box h2{
+    font-weight: 900;
+    color: black;
+    font-family: "Lato";
+    width: 140px;
+
+}
+
+.booking-details-show .booking-details-show-box span{
+    color: black;
+    /* padding-left: 30px; */
+    font-weight: 500;
+    /* float: inline-end; */
+    /* padding: 5px 0px 5px 40px; */
+}
+
+.booking_details_page{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+}

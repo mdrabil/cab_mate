@@ -1,0 +1,85 @@
+.Section3-box{
+    background-color: #09090B;
+
+}
+
+
+.section3-box-left img{
+    /* filter: drop-shadow(20px 20px 1px #2B9AE6) ; */
+    /* background-image: linear-gradient(to top, #2B9AE6 , #09090B 70%); */
+
+
+}
+.section3-box-left{
+    position: relative;
+}
+
+.section3-box-left::before{
+    content: '';
+    position: absolute;
+    left: 58%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    /* background-color: #2B9AE6; */
+    /* background-image: url('../../assets/Mask group.png');
+    background-size: cover;
+    background-position: center; */
+/* z-index: -1; */
+    border-radius: 40px;
+    /* filter: drop-shadow(100px 100px 100px #2B9AE6) !important; */
+
+
+}
+
+.section3-box-right h2{
+    color: #2B9AE6;
+    font-weight: 700;
+}
+.section3-box-right p{
+    font-size: 20px;
+    padding: 20px 0px;
+    
+
+}
+
+
+.section3-box-right-check{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.section3-box-right-check i{
+    color: #2B9AE6;
+    font-size: 30px;
+}
+
+
+
+  .section3-box-left .overlay-image {
+    position: absolute;
+    top: 55%;
+    left: 57%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    /* left: 10%; */
+    /* left: 7%; */
+    z-index: 1; /* Set below the main image */
+    /* opacity: 0.5; Optional: Makes the overlay semi-transparent */
+    /* pointer-events: none; Ensures the overlay doesn’t interfere with clicks */
+  }
+  
+
+  
+  .section3-box-left .main-image {
+    position: relative;
+    z-index: 2; /* Main image stays on top */
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
